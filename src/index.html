@@ -18,30 +18,39 @@
     </a>
   </nav>
 
-  <h2 class="display-4 text-center text-white p-5">Calcule quanto vale sua hora como freelancer</h2>
+  <h2 class="display-4 text-center text-white p-5">Calcule quanto vale sua hora de freelance</h2>
   <div id="all">
-    <div class="card  text-center inputs bg-violet">
-      <h3>Tempo diário investido no projeto</h3>
+    <div class="card text-center inputs bg-violet">
+      <h2>Tempo diário investido no projeto</h2>
+      <br>
+      <input type="number" name="" id="tempoDiario" placeholder="example: 20" class="inputs">
       
-      <input type="text" name="" id="" placeholder="example: 20" class="inputs">
     </div>
 
-    <div class="card  text-center inputs bg-violet">
-      <h3>Dias trabalhando no projeto</h3>
-      
-      <input type="text" name="" id="" placeholder="example: 20" class="inputs">
+    <div class="card text-center inputs bg-violet">
+      <h2>Dias trabalhando no projeto</h2>
+      <br>
+      <input type="number" name="" id="diasTrabalhados" placeholder="example: 20" class="inputs">
     </div>
 
-    <div class="card  text-center inputs bg-violet">
-      <h3>Dias de férias do projeto</h3>
-      
-      <input type="text" name="" id="" placeholder="example: 20" class="inputs">
+    <div class="card text-center inputs bg-violet">
+      <h2>Dias de férias do projeto</h2>
+      <br>
+      <input type="number" name="" id="ferias" placeholder="example: 20" class="inputs">
     </div>
 
-    <div class="card  text-center inputs bg-violet">
-      <h3>Custo total do Projeto</h3>
-      
-      <input type="text" name="" id="" placeholder="example: 20" class="inputs">
+    <div class="card text-center inputs bg-violet">
+      <h2>Custo total do Projeto</h2>
+      <br>
+      <input type="number" name="" id="custoTotal" placeholder="example: 20" class="inputs">
+    </div>
+    <div class="card text-center inputs bg-violet">
+      <h2>Resultado</h2>
+      <br>
+      <input type="submit" onclick="calcular()">
+      <div id="resultado">
+
+      </div>
     </div>
   </div>
   <script src="./main.js"></script>
