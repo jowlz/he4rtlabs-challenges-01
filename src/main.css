@@ -1,0 +1,26 @@
+.bg-violet{
+    background-color: rgb(135, 77, 189);
+}
+
+.bg-cinza{
+    background-color: rgb(212, 149, 233);
+}
+.inputs{
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    margin-bottom: 3em;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inputs > input{
+    color:black;
+}
+.card{
+    border-radius: 2%;
+    border-color: white;
+}
+.all{
+    display: inline-flex;
+}
